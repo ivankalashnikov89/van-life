@@ -1,4 +1,5 @@
-import React from "react";
+import React from "react"
+import { Link } from "react-router-dom"
 
 export default function Vans() {
     const [vans, setVans] = React.useState([])
@@ -20,7 +21,6 @@ export default function Vans() {
             </Link>
         </div>
     ))
-
 
     return (
         <div className="van-list-container">
