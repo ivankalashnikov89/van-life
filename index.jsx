@@ -23,6 +23,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/vans" element={<Vans />} />
         <Route path="/vans/:id" element={<VanDetail />} />
+        
       </Routes>
     </BrowserRouter>
   )
