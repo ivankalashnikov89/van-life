@@ -8,7 +8,7 @@ export default function Vans() {
             .then(res => res.json())
             .then(data => setVans(data.vans))
     }, [])
-    hhh
+    
 
     const vanElements = vans.map(van => (
         <div key={van.id} className="van-tile">
