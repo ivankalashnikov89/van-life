@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 <header>
         <Link className="site-logo" to="/">#VanLife</Link>
