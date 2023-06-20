@@ -1,8 +1,13 @@
-import React from "react"
+import React from "react";
+import { Outlet } from "react-router-dom";
 
 function Layout() {
     return (
-        <h1>Hello Layout</h1>
+        <>
+            <h1>Hello Layout</h1>
+            <Outlet />
+        </>
+        
     )
 }
 
