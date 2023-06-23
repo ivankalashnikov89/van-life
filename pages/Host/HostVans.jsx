@@ -1,8 +1,8 @@
-import React from "react"
+import React, { useState } from "react"
 import { Link } from "react-router-dom"
 
 function HostVans() {
-    const [vans, setVans] = React.useState([])
+    const [vans, setVans] = useState([])
 
     React.useEffect(() => {
         fetch("/api/host/vans")
