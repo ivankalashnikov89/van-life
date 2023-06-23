@@ -30,7 +30,7 @@ function App() {
             <Route path="income" element={<Income />} />
             <Route path="reviews" element={<Reviews />} />
             <Route path="vans" element={<HostVans />} />
-            <Route path="vans/:id" element={<HostVanDetails />} />
+            <Route path="vans/:whatever" element={<HostVanDetails />} />
           </Route>
           
       </Route>   
