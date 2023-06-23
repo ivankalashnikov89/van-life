@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import { useParams } from "react-router-dom";
 
 function HostVanDetails() {
-
+    /*
     const { id } = useParams()
     const [currentVan, setCurrentVan] = useState(null)
 
@@ -40,6 +40,11 @@ function HostVanDetails() {
             </div>
         </section>
     )
+}
+*/
+return (
+    <h1>Hello Vans</h1>
+)
 }
 
 export default HostVanDetails;
