@@ -1,9 +1,9 @@
 import React from "react"
 
-function HostVans() {
+function HostVanDetails() {
     return (
-        <h1>Income</h1>
+        <h1>HostVans</h1>
     )
 }
 
-export default HostVans;
+export default HostVanDetails;
