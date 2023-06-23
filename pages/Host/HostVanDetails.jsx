@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 function HostVanDetails() {
 
     const { id } = useParams()
-    const [currentVan, setCurrentVan] = React.useState(null)
+    const [currentVan, setCurrentVan] = useState(null)
 
     React.useEffect(() => {
         fetch(`/api/host/vans/${id}`)
