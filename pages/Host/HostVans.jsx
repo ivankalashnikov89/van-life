@@ -1,8 +1,8 @@
-import React, { useState } from "react"
+import React from "react"
 import { Link } from "react-router-dom"
 
-function HostVans() {
-    const [vans, setVans] = useState([])
+export default function HostVans() {
+    const [vans, setVans] = React.useState([])
 
     React.useEffect(() => {
         fetch("/api/host/vans")
@@ -44,5 +44,3 @@ function HostVans() {
         </section>
     )
 }
-
-export default HostVans;
