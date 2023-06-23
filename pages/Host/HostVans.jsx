@@ -10,7 +10,7 @@ export default function HostVans() {
             .then(data => setVans(data.vans))
     }, [])
 
-    const hostVansEls = vans.map(van => ( 
+    const hostVansEls = vans.map(van => (
         <Link
             to={`/host/vans/${van.id}`}
             key={van.id}
