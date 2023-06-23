@@ -13,7 +13,7 @@ function HostVanDetails() {
     }, [])
     
     if (!currentVan) {
-        return <h1>Loaading...</h1>
+        return <h1>Loading...</h1>
     }
 
     return (
