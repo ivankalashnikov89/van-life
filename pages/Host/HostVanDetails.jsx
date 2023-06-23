@@ -12,7 +12,9 @@ function HostVanDetails() {
             .then(data => setCurrentVan(data.vans))
     }, [])
     
-   
+    if (!currentVan) {
+        return <h1>Loaading...</h1>
+    }
 
     return (
         <div>
