@@ -1,21 +1,19 @@
-import React, { useState } from "react"
-import { useParams } from "react-router-dom";
+import React from "react"
+import { useParams, Link } from "react-router-dom"
 
 function HostVanDetails() {
-    /*
     const { id } = useParams()
-    const [currentVan, setCurrentVan] = useState(null)
+    const [currentVan, setCurrentVan] = React.useState(null)
 
     React.useEffect(() => {
         fetch(`/api/host/vans/${id}`)
             .then(res => res.json())
             .then(data => setCurrentVan(data.vans))
     }, [])
-    
+
     if (!currentVan) {
         return <h1>Loading...</h1>
     }
-
     return (
         <section>
             <Link
@@ -40,11 +38,6 @@ function HostVanDetails() {
             </div>
         </section>
     )
-}
-*/
-return (
-    <h1>Hello Vans</h1>
-)
 }
 
 export default HostVanDetails;
