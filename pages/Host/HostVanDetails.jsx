@@ -2,7 +2,7 @@ import React from "react"
 
 function HostVanDetails() {
     return (
-        <h1>HostVans</h1>
+        <h1>HostVanDetails</h1>
     )
 }
 
