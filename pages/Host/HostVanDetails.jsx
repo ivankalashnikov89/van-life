@@ -1,7 +1,7 @@
 import React from "react"
 import { useParams, Link, NavLink, Outlet } from "react-router-dom"
 
-export default function HostVanDetail() {
+export default function HostVanDetails() {
     const { id } = useParams()
     const [currentVan, setCurrentVan] = React.useState(null)
 
