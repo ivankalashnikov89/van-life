@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "react-router-dom"
 
 export default function HostVans() {
-    const [vans, setVans] = React.useState([])
+    /*const [vans, setVans] = React.useState([])
 
     React.useEffect(() => {
         fetch("/api/host/vans")
@@ -10,7 +10,7 @@ export default function HostVans() {
             .then(data => setVans(data.vans))
     }, [])
 
-    const hostVansEls = vans.map(van => (
+    const hostVansEls = vans.map(van => ( 
         <Link
             to={`/host/vans/${van.id}`}
             key={van.id}
@@ -42,5 +42,8 @@ export default function HostVans() {
                 }
             </div>
         </section>
+    ) */
+    return (
+        <h1>Hello Vans...</h1>
     )
 }
