@@ -12,9 +12,10 @@ import Income from './pages/Host/Income';
 import Reviews from './pages/Host/Reviews';
 import HostVans from './pages/Host/HostVans';
 import HostVanDetails from './pages/Host/HostVanDetails';
-import HostVanInfo from "./pages/Host/HostVanInfo"
-import HostVanPricing from "./pages/Host/HostVanPricing"
-import HostVanPhotos from "./pages/Host/HostVanPhotos"
+import HostVanInfo from "./pages/Host/HostVanInfo";
+import HostVanPricing from "./pages/Host/HostVanPricing";
+import HostVanPhotos from "./pages/Host/HostVanPhotos";
+import NotFound from './components/NotFound';
 
 import "./server"
 
@@ -39,7 +40,7 @@ function App() {
               <Route path="photos" element={<HostVanPhotos />} />
             </Route>
           </Route>
-          
+          <Route path='*' element={<NotFound />} />
       </Route>   
     </Routes>
   </BrowserRouter>
