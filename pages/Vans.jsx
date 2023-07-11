@@ -1,6 +1,11 @@
 import React from "react"
 import { Link, useSearchParams } from "react-router-dom"
 
+
+export function loader(){
+    return "Vans data";
+}
+
 export default function Vans() {
 
     const [searchParams, serSearchParams] = useSearchParams();
