@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import Home from "./pages/Home"
-import About from "./pages/About"
-import Vans from "./pages/Vans"
-import VanDetail from "./pages/VanDetail"
-import Layout from "./components/Layout"
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Vans from "./pages/Vans";
+import VanDetail from "./pages/VanDetail";
+import Layout from "./components/Layout";
 import HostLayout from './components/HostLayout';
 import Dashboard from './pages/Host/Dashboard';
 import Income from './pages/Host/Income';
@@ -40,7 +40,7 @@ function App() {
               <Route path="photos" element={<HostVanPhotos />} />
             </Route>
           </Route>
-          <Route path='*' element={<NotFound />} />
+          <Route path="*" element={<NotFound />}/>
       </Route>   
     </Routes>
   </BrowserRouter>
